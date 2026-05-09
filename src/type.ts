@@ -4,3 +4,10 @@ export interface ItemInfo {
     amount: number
     price: number
   }
+
+export type ItemData = {
+  name: string
+  price: number
+  img: string
+  amount: number
+};

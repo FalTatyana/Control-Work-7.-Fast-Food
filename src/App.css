@@ -1,0 +1,65 @@
+body {
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #ea0001;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.itemsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 0 20px 20px 20px;
+  border-radius: 15px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.orderInfoWrapper {
+  width: 40%;
+  margin-right: 50px;
+  border: 1px solid rgb(203, 203, 203);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  position: relative;
+}
+
+.totalPrice {
+  margin-top: 30px;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.orderTitle {
+  height: 88px;
+  width: 100%;
+  background-color: #ea0001;
+  margin: 0;
+  border-radius: 15px 15px 0 0;
+}
+
+.orderList {
+  padding: 20px;
+}

@@ -12,6 +12,7 @@ const Order = ({ order, removeOnClick }: Props) => {
             {order.map((item: ItemInfo) => {
                 return (
                     <div key={item.name} className="orderInfo">
+                        <img className='orderImg' src={item.img} alt="" />
                         <div className="orderName">{item.name}</div>
                         <div className="orderAmount">x{item.amount}</div>
                         <div className="orderPrice">{item.price * item.amount} KGZ</div>
